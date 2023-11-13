@@ -64,14 +64,12 @@
 	margin-top: 20px;
 }
 
-.btn {
+.btn-sign-in {
 	width: 27.7rem;
 	height: 2.5rem;
 	border-radius: 8px;
 	font-size: 18px;
-	background-color: rgb(108, 39, 62);
-	color: white;
-	border: none;
+	background-color: red;
 }
 /* end signIn page design */
 /* /////////////////// */
@@ -150,8 +148,21 @@
 		justify-content: center;
 		gap: 30px;
 		border: 1px solid black;
-		width: 14rem;
+		width: 15rem;
 		height: 30rem;
+		border-radius: 12px;
+		box-shadow: 2px 2px 2px 3px grey;
+	}
+
+	.card-login {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		gap: 15px;
+		border: 1px solid black;
+		width: 20rem;
+		height: 20rem;
 		border-radius: 12px;
 		box-shadow: 2px 2px 2px 3px grey;
 	}
@@ -166,6 +177,16 @@
 	}
 
 	.btn {
+		width: 11.7rem;
+		height: 2.5rem;
+		border-radius: 8px;
+		font-size: 18px;
+		background-color: rgb(108, 39, 62);
+		color: white;
+		border: none;
+	}
+
+	.btn-login {
 		width: 11.7rem;
 		height: 2.5rem;
 		border-radius: 8px;
