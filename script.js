@@ -15,12 +15,16 @@ function getProduct() {
 				let name = document.createElement('h3');
 				name.classList.add('name');
 				let price = document.createElement('p');
+				let btn = document.createElement('button');
+				btn.classList.add('product-btn');
+				btn.innerHTML = ' Add to cart';
 				image.src = data[i].image;
 				name.innerHTML = data[i].title;
 				price.innerHTML = `price: ${data[i].price}`;
 				product.appendChild(image);
 				product.appendChild(name);
 				product.appendChild(price);
+				product.appendChild(btn);
 			}
 		});
 }
