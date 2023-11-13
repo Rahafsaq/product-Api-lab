@@ -1,0 +1,96 @@
+.container {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	gap: 20px;
+	justify-content: center;
+	margin-top: 20px;
+}
+.products {
+	width: 30vw;
+	height: 60vh;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid black;
+	display: flex;
+	flex-direction: column;
+	box-shadow: 2px 2px 3px grey;
+	border-radius: 10px;
+}
+
+.images {
+	height: 30vh;
+}
+
+.name {
+	text-align: center;
+}
+@media (max-width: 600px) {
+	.products {
+		width: 40vw;
+		height: 35vh;
+		justify-content: center;
+		align-items: center;
+		border: 1px solid black;
+		display: flex;
+		flex-direction: column;
+		box-shadow: 2px 2px 3px grey;
+		border-radius: 10px;
+	}
+	.images {
+		height: 15vh;
+		width: 15vw;
+	}
+	.name {
+		text-align: center;
+		font-size: 15px;
+	}
+
+	.container {
+		display: grid;
+		grid-template-columns: auto auto;
+		gap: 20px;
+		justify-content: center;
+		margin-top: 20px;
+	}
+}
+
+@media only screen and (min-width: 600px) {
+	.images {
+		height: 15vh;
+		width: 15vw;
+	}
+	.container {
+		display: grid;
+		grid-template-columns: auto auto;
+		gap: 20px;
+		justify-content: center;
+	}
+}
+@media only screen and (min-width: 768px) {
+	.container {
+		display: grid;
+		grid-template-columns: auto auto auto;
+		gap: 20px;
+		justify-content: center;
+		margin-top: 20px;
+	}
+	.products {
+		width: 30vw;
+		height: 60vh;
+		justify-content: center;
+		align-items: center;
+		border: 1px solid black;
+		display: flex;
+		flex-direction: column;
+		box-shadow: 2px 2px 3px grey;
+		border-radius: 10px;
+	}
+
+	.images {
+		height: 30vh;
+	}
+
+	.name {
+		text-align: center;
+	}
+}
